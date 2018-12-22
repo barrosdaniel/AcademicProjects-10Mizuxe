@@ -35,3 +35,6 @@ body {
 .info-header {
   width: 50%;
   border-bottom: 1px solid #ddd; }
+
+#about h5:hover {
+  cursor: pointer; }

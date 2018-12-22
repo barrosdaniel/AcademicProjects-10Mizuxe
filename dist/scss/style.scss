@@ -78,9 +78,15 @@ body {
 
 
 
-// About
+// Why/About
 // ======================================================================
 .info-header {
   width: 50%;
   border-bottom: 1px solid $dark-gray;
+}
+
+#about {
+  h5:hover {
+    cursor: pointer;
+  }
 }
