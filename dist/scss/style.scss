@@ -4,6 +4,7 @@ $primary: #3292a6;
 $primary-overlay: rgba(50, 146, 166, 0.7);
 $background: #fafafa;
 $dark-gray: #ddd;
+$light-gray: #6c757d;
 
 
 
@@ -89,4 +90,34 @@ body {
   h5:hover {
     cursor: pointer;
   }
+}
+
+
+
+// Authors
+// ======================================================================
+#authors {
+
+  // .card-body {
+  //   min-height: 480px;
+  // }
+
+  img {
+    margin-top: -50px;
+  }
+
+  .card:hover {
+    background-color: $primary;
+    color: $background;
+
+    .h5 {
+      color: $background;
+    }
+
+    .fab {
+      color: $background;
+    }
+  }
+
+
 }
