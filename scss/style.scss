@@ -97,11 +97,6 @@ body {
 // Authors
 // ======================================================================
 #authors {
-
-  // .card-body {
-  //   min-height: 480px;
-  // }
-
   img {
     margin-top: -50px;
   }
@@ -122,6 +117,13 @@ body {
       color: $background;
     }
   }
+}
 
 
+
+// Contact
+// ======================================================================
+.input-group-lg>textarea.form-control,
+.input-group-lg>.textarea-prepend>span.input-group-text {
+  height: 160px;
 }

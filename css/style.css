@@ -50,3 +50,7 @@ body {
     color: #fafafa; }
   #authors .card:hover .fab {
     color: #fafafa; }
+
+.input-group-lg > textarea.form-control,
+.input-group-lg > .textarea-prepend > span.input-group-text {
+  height: 160px; }
